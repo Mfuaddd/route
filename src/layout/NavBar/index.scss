@@ -1,0 +1,18 @@
+.navbar{
+    background-color: lightgreen;
+    width: 100%;
+    padding: 10px;
+    ul{
+        display: flex;
+        gap: 10px;
+        li{
+            padding: 10px;
+            a{
+                color: #000000;
+            }
+        }
+    }
+}
+.salam{
+    color: blue !important;
+}

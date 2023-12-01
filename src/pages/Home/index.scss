@@ -1,0 +1,24 @@
+.container {
+
+    max-width: 1200px;
+    margin: 40px auto;
+
+}
+.card{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    color: #000000;
+    li{
+        color:#000000;
+        padding: 10px;
+    }
+}
+.wrapper{
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
